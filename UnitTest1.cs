@@ -10,7 +10,7 @@ namespace UnitTest_ValidType_ReturnsTrue
         [TestMethod]
         public void Test_ValidType_ReturnsTrue()
         {
-            Assert.IsTrue(Validators.IsValidType("Автоматическая"));
+            Assert.IsTrue(Validators.IsValidType("Aвтоматическая"));
             Assert.IsTrue(Validators.IsValidType("Полуавтоматическая"));
         }
     }
